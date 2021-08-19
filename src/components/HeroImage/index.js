@@ -1,4 +1,3 @@
-import { checkPropTypes } from 'prop-types';
 import React from 'react'
 
 // Styles
@@ -9,8 +8,8 @@ const HeroImage = ({ image, title, text }) => {
         <Wrapper image={image}>
             <Content>
                 <Text>
-                    <h1>{ title }</h1>
-                    <p>{ text }</p>
+                    <h1>{title}</h1>
+                    <p>{text}</p>
                 </Text>
             </Content>
         </Wrapper>
